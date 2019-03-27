@@ -1,0 +1,713 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ad859e29-ba09-4376-80ec-081b192fce13" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="udPlayer.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/udPlayer.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="154" column="32" lean-forward="false" selection-start-line="154" selection-start-column="32" selection-end-line="154" selection-end-column="32" />
+              <folding>
+                <marker date="1553672651954" expanded="true" signature="5286:5500" ph="..." />
+                <marker date="1553672651954" expanded="true" signature="5754:6054" ph="..." />
+                <marker date="1553672651954" expanded="true" signature="5901:6035" ph="..." />
+                <marker date="1553672651954" expanded="true" signature="6097:6626" ph="..." />
+                <marker date="1553672651954" expanded="true" signature="6097:7484" ph="..." />
+                <marker date="1553672651954" expanded="true" signature="6282:6421" ph="..." />
+                <marker date="1553672651954" expanded="true" signature="6463:6596" ph="..." />
+                <marker date="1553672651954" expanded="true" signature="6642:6851" ph="..." />
+                <marker date="1553672651954" expanded="true" signature="6743:6828" ph="..." />
+                <marker date="1553672651954" expanded="true" signature="6901:7212" ph="..." />
+                <marker date="1553672651954" expanded="true" signature="7263:7341" ph="..." />
+                <marker date="1553672651954" expanded="true" signature="7524:7569" ph="..." />
+                <marker date="1553672651954" expanded="true" signature="7693:8134" ph="..." />
+                <marker date="1553672651954" expanded="true" signature="8403:8605" ph="..." />
+                <marker date="1553672651954" expanded="true" signature="8781:9239" ph="..." />
+                <marker date="1553672651954" expanded="true" signature="24261:24678" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="udPlayer.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/udPlayer.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="257">
+              <caret line="771" column="22" lean-forward="true" selection-start-line="771" selection-start-column="22" selection-end-line="771" selection-end-column="22" />
+              <folding>
+                <element signature="e#1432#1595#0" expanded="false" />
+                <element signature="e#4077#4694#0" expanded="false" />
+                <element signature="e#4848#5694#0" expanded="false" />
+                <element signature="e#10002#10600#0" expanded="false" />
+                <element signature="e#14122#15275#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="12" column="11" lean-forward="false" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+              <folding>
+                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="webpack.config.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/webpack.config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="37" column="33" lean-forward="true" selection-start-line="37" selection-start-column="33" selection-end-line="37" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>$red</find>
+      <find>$gray</find>
+      <find>udPlayer-play-btn</find>
+      <find>udPlayer-hide</find>
+      <find>hidebutton</find>
+      <find>udPlayer-hided</find>
+      <find>isMobile</find>
+      <find>udPlayer-mode</find>
+      <find>udPlayer-list-switch</find>
+      <find>udPlayer-volume</find>
+      <find>volumeline</find>
+      <find>volumebutton</find>
+      <find>udPlayer-left</find>
+      <find>albumlist</find>
+      <find>console</find>
+      <find>udPlayer</find>
+      <find>sha</find>
+      <find>overflow</find>
+      <find>udPlayer-percent</find>
+      <find>list</find>
+      <find>hide</find>
+      <find>skPlayer</find>
+      <find>shadow</find>
+      <find>toggleMute</find>
+      <find>type</find>
+      <find>source</find>
+      <find>eject</find>
+      <find>listshow</find>
+      <find>showeva</find>
+      <find>title</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>https://www.</replace>
+      <replace>//live2d</replace>
+      <replace>//live2d.fghrsh.net/api/</replace>
+      <replace>let</replace>
+      <replace>albumlist</replace>
+      <replace>.skPlayer-album-list</replace>
+      <replace>skPlayer-list-off</replace>
+      <replace>skPlayer-list-on</replace>
+      <replace>skPlayer-curAlbum</replace>
+      <replace>musictitle</replace>
+      <replace>$sub-tone</replace>
+      <replace>$main-tone</replace>
+      <replace>udPlayer</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/songsGet.js" />
+        <option value="$PROJECT_DIR$/../waifu-tips.js" />
+        <option value="$PROJECT_DIR$/dist/skPlayer.min.js" />
+        <option value="$PROJECT_DIR$/src/skPlayer.scss" />
+        <option value="$PROJECT_DIR$/src/skPlayer.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/src/udPlayer.js" />
+        <option value="$PROJECT_DIR$/src/udPlayer.scss" />
+        <option value="$PROJECT_DIR$/dist/udPlayer.min.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/webpack.config.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="59" />
+    <option name="width" value="1150" />
+    <option name="height" value="1027" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="udPlayer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="udPlayer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="udPlayer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="udPlayer" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="udPlayer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="udPlayer" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+              <item name="udPlayer.min.js" type="620a8d5e:NestingTreeNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="D:/课件/skPlayer-3.0" />
+    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/xupeng8/Desktop/myplayer/src/skPlayer.js" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ad859e29-ba09-4376-80ec-081b192fce13" name="Default" comment="" />
+      <created>1541502323742</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1541502323742</updated>
+      <workItem from="1541502325332" duration="3242000" />
+      <workItem from="1541572751546" duration="5240000" />
+      <workItem from="1541578568152" duration="102000" />
+      <workItem from="1542591907192" duration="5191000" />
+      <workItem from="1542606364065" duration="805000" />
+      <workItem from="1543224542369" duration="826000" />
+      <workItem from="1544329596025" duration="39000" />
+      <workItem from="1551837373264" duration="255000" />
+      <workItem from="1551838660126" duration="19000" />
+      <workItem from="1551838774659" duration="9000" />
+      <workItem from="1551853565407" duration="27000" />
+      <workItem from="1552352489140" duration="434000" />
+      <workItem from="1552353062874" duration="253000" />
+      <workItem from="1552355795293" duration="2643000" />
+      <workItem from="1552396400503" duration="1264000" />
+      <workItem from="1552398102095" duration="1144000" />
+      <workItem from="1552457641450" duration="9704000" />
+      <workItem from="1552530777366" duration="1614000" />
+      <workItem from="1552532710576" duration="1283000" />
+      <workItem from="1552547187306" duration="5418000" />
+      <workItem from="1552552976867" duration="2520000" />
+      <workItem from="1552614063150" duration="13050000" />
+      <workItem from="1552703050291" duration="3151000" />
+      <workItem from="1552713950849" duration="2701000" />
+      <workItem from="1552789561501" duration="4571000" />
+      <workItem from="1552804962145" duration="6317000" />
+      <workItem from="1552832593167" duration="1560000" />
+      <workItem from="1552873099569" duration="3476000" />
+      <workItem from="1552888644810" duration="13440000" />
+      <workItem from="1552998686898" duration="168000" />
+      <workItem from="1552999034257" duration="23000" />
+      <workItem from="1552999298098" duration="69000" />
+      <workItem from="1553000798956" duration="2250000" />
+      <workItem from="1553049048419" duration="67000" />
+      <workItem from="1553049517633" duration="1450000" />
+      <workItem from="1553064736973" duration="8742000" />
+      <workItem from="1553140318323" duration="16000" />
+      <workItem from="1553153541053" duration="6000" />
+      <workItem from="1553173761620" duration="39000" />
+      <workItem from="1553176553247" duration="11000" />
+      <workItem from="1553176728329" duration="45000" />
+      <workItem from="1553260598500" duration="21000" />
+      <workItem from="1553309535103" duration="623000" />
+      <workItem from="1553396250233" duration="6000" />
+      <workItem from="1553503316482" duration="2541000" />
+      <workItem from="1553579792961" duration="5301000" />
+      <workItem from="1553589567285" duration="6807000" />
+      <workItem from="1553607456456" duration="1857000" />
+      <workItem from="1553609365989" duration="16000" />
+      <workItem from="1553609455990" duration="603000" />
+      <workItem from="1553671773223" duration="340000" />
+      <workItem from="1553672370151" duration="620000" />
+      <workItem from="1553673015359" duration="1563000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="123482000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="59" y="0" width="1150" height="1027" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17491166" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="14" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="27" lean-forward="false" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../文献/skPlayer-3.0/skPlayer-3.0/src/skPlayer.js" />
+    <entry file="file://$PROJECT_DIR$/src/udPlayer.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#1432#1595#0" expanded="false" />
+            <element signature="e#4077#4694#0" expanded="false" />
+            <element signature="e#4848#5694#0" expanded="false" />
+            <element signature="e#10002#10600#0" expanded="false" />
+            <element signature="e#14122#15275#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="4" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="27" lean-forward="false" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../文献/skPlayer-3.0/skPlayer-3.0/src/skPlayer.js" />
+    <entry file="file://$PROJECT_DIR$/src/udPlayer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2346">
+          <caret line="102" column="39" lean-forward="true" selection-start-line="102" selection-start-column="39" selection-end-line="102" selection-end-column="39" />
+          <folding>
+            <marker date="1553672651954" expanded="true" signature="5286:5500" ph="..." />
+            <marker date="1553672651954" expanded="true" signature="5754:6054" ph="..." />
+            <marker date="1553672651954" expanded="true" signature="5901:6035" ph="..." />
+            <marker date="1553672651954" expanded="true" signature="6097:6626" ph="..." />
+            <marker date="1553672651954" expanded="true" signature="6097:7484" ph="..." />
+            <marker date="1553672651954" expanded="true" signature="6282:6421" ph="..." />
+            <marker date="1553672651954" expanded="true" signature="6463:6596" ph="..." />
+            <marker date="1553672651954" expanded="true" signature="6642:6851" ph="..." />
+            <marker date="1553672651954" expanded="true" signature="6743:6828" ph="..." />
+            <marker date="1553672651954" expanded="true" signature="6901:7212" ph="..." />
+            <marker date="1553672651954" expanded="true" signature="7263:7341" ph="..." />
+            <marker date="1553672651954" expanded="true" signature="7524:7569" ph="..." />
+            <marker date="1553672651954" expanded="true" signature="7693:8134" ph="..." />
+            <marker date="1553672651954" expanded="true" signature="8403:8605" ph="..." />
+            <marker date="1553672651954" expanded="true" signature="8781:9239" ph="..." />
+            <marker date="1553672651954" expanded="true" signature="24261:24678" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="4" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/udPlayer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1288">
+          <caret line="56" column="69" lean-forward="false" selection-start-line="56" selection-start-column="69" selection-end-line="56" selection-end-column="69" />
+          <folding>
+            <marker date="1553672651954" expanded="true" signature="5286:5500" ph="..." />
+            <marker date="1553672651954" expanded="true" signature="5754:6054" ph="..." />
+            <marker date="1553672651954" expanded="true" signature="5901:6035" ph="..." />
+            <marker date="1553672651954" expanded="true" signature="6097:6626" ph="..." />
+            <marker date="1553672651954" expanded="true" signature="6097:7484" ph="..." />
+            <marker date="1553672651954" expanded="true" signature="6282:6421" ph="..." />
+            <marker date="1553672651954" expanded="true" signature="6463:6596" ph="..." />
+            <marker date="1553672651954" expanded="true" signature="6642:6851" ph="..." />
+            <marker date="1553672651954" expanded="true" signature="6743:6828" ph="..." />
+            <marker date="1553672651954" expanded="true" signature="6901:7212" ph="..." />
+            <marker date="1553672651954" expanded="true" signature="7263:7341" ph="..." />
+            <marker date="1553672651954" expanded="true" signature="7524:7569" ph="..." />
+            <marker date="1553672651954" expanded="true" signature="7693:8134" ph="..." />
+            <marker date="1553672651954" expanded="true" signature="8403:8605" ph="..." />
+            <marker date="1553672651954" expanded="true" signature="8781:9239" ph="..." />
+            <marker date="1553672651954" expanded="true" signature="24261:24678" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="27" lean-forward="false" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../文献/skPlayer-3.0/skPlayer-3.0/src/skPlayer.js" />
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1426">
+          <caret line="62" column="13" lean-forward="true" selection-start-line="62" selection-start-column="13" selection-end-line="62" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="4" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="27" lean-forward="false" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../文献/skPlayer-3.0/skPlayer-3.0/src/skPlayer.js" />
+    <entry file="file://$PROJECT_DIR$/src/udPlayer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4002">
+          <caret line="174" column="56" lean-forward="false" selection-start-line="174" selection-start-column="56" selection-end-line="174" selection-end-column="56" />
+          <folding>
+            <marker date="1553672651954" expanded="true" signature="5286:5500" ph="..." />
+            <marker date="1553672651954" expanded="true" signature="5754:6054" ph="..." />
+            <marker date="1553672651954" expanded="true" signature="5901:6035" ph="..." />
+            <marker date="1553672651954" expanded="true" signature="6097:6626" ph="..." />
+            <marker date="1553672651954" expanded="true" signature="6097:7484" ph="..." />
+            <marker date="1553672651954" expanded="true" signature="6282:6421" ph="..." />
+            <marker date="1553672651954" expanded="true" signature="6463:6596" ph="..." />
+            <marker date="1553672651954" expanded="true" signature="6642:6851" ph="..." />
+            <marker date="1553672651954" expanded="true" signature="6743:6828" ph="..." />
+            <marker date="1553672651954" expanded="true" signature="6901:7212" ph="..." />
+            <marker date="1553672651954" expanded="true" signature="7263:7341" ph="..." />
+            <marker date="1553672651954" expanded="true" signature="7524:7569" ph="..." />
+            <marker date="1553672651954" expanded="true" signature="7693:8134" ph="..." />
+            <marker date="1553672651954" expanded="true" signature="8403:8605" ph="..." />
+            <marker date="1553672651954" expanded="true" signature="8781:9239" ph="..." />
+            <marker date="1553672651954" expanded="true" signature="24261:24678" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../文献/skPlayer-3.0/skPlayer-3.0/src/skPlayer.js" />
+    <entry file="file://$PROJECT_DIR$/src/udPlayer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2714">
+          <caret line="118" column="22" lean-forward="true" selection-start-line="118" selection-start-column="22" selection-end-line="118" selection-end-column="22" />
+          <folding>
+            <marker date="1553672651954" expanded="true" signature="5286:5500" ph="..." />
+            <marker date="1553672651954" expanded="true" signature="5754:6054" ph="..." />
+            <marker date="1553672651954" expanded="true" signature="5901:6035" ph="..." />
+            <marker date="1553672651954" expanded="true" signature="6097:6626" ph="..." />
+            <marker date="1553672651954" expanded="true" signature="6097:7484" ph="..." />
+            <marker date="1553672651954" expanded="true" signature="6282:6421" ph="..." />
+            <marker date="1553672651954" expanded="true" signature="6463:6596" ph="..." />
+            <marker date="1553672651954" expanded="true" signature="6642:6851" ph="..." />
+            <marker date="1553672651954" expanded="true" signature="6743:6828" ph="..." />
+            <marker date="1553672651954" expanded="true" signature="6901:7212" ph="..." />
+            <marker date="1553672651954" expanded="true" signature="7263:7341" ph="..." />
+            <marker date="1553672651954" expanded="true" signature="7524:7569" ph="..." />
+            <marker date="1553672651954" expanded="true" signature="7693:8134" ph="..." />
+            <marker date="1553672651954" expanded="true" signature="8403:8605" ph="..." />
+            <marker date="1553672651954" expanded="true" signature="8781:9239" ph="..." />
+            <marker date="1553672651954" expanded="true" signature="24261:24678" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package-lock.json" />
+    <entry file="file://$PROJECT_DIR$/../文献/skPlayer-3.0/package.json" />
+    <entry file="file://$PROJECT_DIR$/../文献/skPlayer-3.0/index.html" />
+    <entry file="file://$PROJECT_DIR$/src/songsGet.js" />
+    <entry file="file://$PROJECT_DIR$/../waifu.min.css" />
+    <entry file="file://$PROJECT_DIR$/../waifu-tips.js" />
+    <entry file="file://$PROJECT_DIR$/../文献/skPlayer-3.0/skPlayer-3.0/src/skPlayer.js" />
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript5.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="177" column="0" lean-forward="false" selection-start-line="177" selection-start-column="0" selection-end-line="177" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/课件/myplayer/myplayer/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="45" lean-forward="true" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/课件/myplayer/myplayer/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="14" lean-forward="false" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../skPlayer-3.0/skPlayer-3.0/webpack.config.js" />
+    <entry file="file://$PROJECT_DIR$/../skPlayer-3.0/skPlayer-3.0/package.json" />
+    <entry file="file://$PROJECT_DIR$/../skPlayer-3.0/skPlayer-3.0/README.md" />
+    <entry file="file://$PROJECT_DIR$/../test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="28" column="31" lean-forward="false" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/HTML5.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="333" column="0" lean-forward="false" selection-start-line="333" selection-start-column="0" selection-end-line="333" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/skPlayer.min.js" />
+    <entry file="file://D:/课件/skPlayer-3.0/src/skPlayer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="130" column="44" lean-forward="true" selection-start-line="130" selection-start-column="44" selection-end-line="130" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DOMCore.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="736" column="0" lean-forward="false" selection-start-line="736" selection-start-column="0" selection-end-line="736" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../11.html" />
+    <entry file="file://$PROJECT_DIR$/dist/skPlayer.min.js.map" />
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DHTML.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="986" column="9" lean-forward="false" selection-start-line="986" selection-start-column="9" selection-end-line="986" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/webpack-dev-server/client/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="35" lean-forward="true" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/课件/skPlayer-3.0/dist/skPlayer.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="11" lean-forward="false" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/udPlayer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="154" column="32" lean-forward="false" selection-start-line="154" selection-start-column="32" selection-end-line="154" selection-end-column="32" />
+          <folding>
+            <marker date="1553672651954" expanded="true" signature="5286:5500" ph="..." />
+            <marker date="1553672651954" expanded="true" signature="5754:6054" ph="..." />
+            <marker date="1553672651954" expanded="true" signature="5901:6035" ph="..." />
+            <marker date="1553672651954" expanded="true" signature="6097:6626" ph="..." />
+            <marker date="1553672651954" expanded="true" signature="6097:7484" ph="..." />
+            <marker date="1553672651954" expanded="true" signature="6282:6421" ph="..." />
+            <marker date="1553672651954" expanded="true" signature="6463:6596" ph="..." />
+            <marker date="1553672651954" expanded="true" signature="6642:6851" ph="..." />
+            <marker date="1553672651954" expanded="true" signature="6743:6828" ph="..." />
+            <marker date="1553672651954" expanded="true" signature="6901:7212" ph="..." />
+            <marker date="1553672651954" expanded="true" signature="7263:7341" ph="..." />
+            <marker date="1553672651954" expanded="true" signature="7524:7569" ph="..." />
+            <marker date="1553672651954" expanded="true" signature="7693:8134" ph="..." />
+            <marker date="1553672651954" expanded="true" signature="8403:8605" ph="..." />
+            <marker date="1553672651954" expanded="true" signature="8781:9239" ph="..." />
+            <marker date="1553672651954" expanded="true" signature="24261:24678" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/udPlayer.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="771" column="22" lean-forward="true" selection-start-line="771" selection-start-column="22" selection-end-line="771" selection-end-column="22" />
+          <folding>
+            <element signature="e#1432#1595#0" expanded="false" />
+            <element signature="e#4077#4694#0" expanded="false" />
+            <element signature="e#4848#5694#0" expanded="false" />
+            <element signature="e#10002#10600#0" expanded="false" />
+            <element signature="e#14122#15275#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/udPlayer.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2515">
+          <caret line="2" column="8" lean-forward="true" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/udPlayer.min.js.map">
+      <provider editor-type-id="sourcemapFileViewerProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="37" column="33" lean-forward="true" selection-start-line="37" selection-start-column="33" selection-end-line="37" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
