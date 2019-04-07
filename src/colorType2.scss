@@ -1,0 +1,196 @@
+//const
+$white:#FFF;              //主白
+$red:#D94240;             //主红
+$gray:#6A6B6F;            //主灰
+$gray_grandma:#666;       //奶奶灰
+
+$line:#EBEBF2;            //进度条
+$main-tone:#f5fffa;       //主色调
+$sub-tone:#81c300;        //副色调
+$text-color:#81c300;      //副色调
+$line_loading:#D3D3E0;    //加载进度条
+$list_bg:#f5fffa;         //列表项背景
+$list_hover:#DDD;         //列表项hover
+$list_border:#E9E9E9;     //列表项边框
+$eva_back:#FFF;           //评论框背景
+
+#udPlayer {
+    background-color:$main-tone;
+
+    .udPlayer-tip-loading {
+        color:$gray;
+    }
+
+    .udPlayer-play-btn {
+        background-color:$sub-tone;
+    }
+
+    .udPlayer-hide {
+        background-color:$main-tone;
+    }
+
+    .udPlayer-control{
+        p{
+            &.udPlayer-name{
+                color:$gray;
+            }
+
+            &.udPlayer-author{
+                color:$gray_grandma;
+            }
+
+        }
+
+        >.udPlayer-percent{
+            background-color:$line;
+
+            .udPlayer-line{
+                background-color:$sub-tone;
+            }
+
+            .udPlayer-line-loading{
+                background-color:$line_loading;
+            }
+        }
+
+        .udPlayer-volume{
+            .udPlayer-icon{
+                background-color:$gray;
+                &::before{
+                    background-color:$gray;
+                }
+
+                &::after{
+                    border-color:transparent $gray transparent transparent;
+                }
+            }
+
+            .udPlayer-percent{
+                background-color:$line;
+            }
+
+            .udPlayer-line{
+                background-color:$sub-tone;
+            }
+        }
+
+        .udPlayer-time{
+            color:$gray_grandma;
+        }
+
+        .udPlayer-list-icon{
+            background-color:$gray;
+
+            &::before{
+                background-color:$gray;
+            }
+
+            &::after{
+                background-color:$gray;
+            }
+
+        }
+    }
+
+    .udPlayer-list {
+        background-color: $main-tone;
+    }
+
+    .udPlayer-song-list{
+        background-color:$main-tone;
+        li{
+            &.udPlayer-curMusic{
+                background-color:$list_bg;
+            }
+        }
+
+        &::-webkit-scrollbar-thumb{
+            background-color:$sub-tone;
+        }
+
+        .udPlayer-list-sign{
+            background-color:$sub-tone;
+        }
+
+        .udPlayer-list-index{
+            color:$gray_grandma;
+        }
+
+        .udPlayer-list-name{
+            color:$gray;
+        }
+
+        .udPlayer-list-author{
+            color:$gray_grandma;
+        }
+
+        .udPlayer-list-des{
+            color:$gray_grandma;
+        }
+    }
+
+    .udPlayer-album-list{
+        background-color:$main-tone;
+        li{
+            &:hover{
+                background-color:$list_hover;
+            }
+
+            &.udPlayer-curAlbum{
+                background-color:$list_bg;
+            }
+        }
+
+        &::-webkit-scrollbar-thumb{
+            background-color:$sub-tone;
+        }
+
+        .udPlayer-list-sign{
+            background-color:$sub-tone;
+        }
+
+        .udPlayer-list-index{
+            color:$gray_grandma;
+        }
+
+        .udPlayer-list-name{
+            color:$gray;
+        }
+
+        .udPlayer-list-author{
+            color:$gray_grandma;
+        }
+
+        .udPlayer-list-des{
+            color:$gray_grandma;
+        }
+    }
+
+    &.udPlayer-list-on{
+        .udPlayer-album-list li{
+            &:hover{
+                background-color:$list_hover;
+            }
+        }
+
+        .udPlayer-song-list li{
+            &:hover{
+                background-color:$list_hover;
+            }
+        }
+    }
+
+    .udPlayer-eva-win {
+        background-color: $eva_back;
+        color: $text-color;
+    }
+
+    .udPlayer-eva-win:before{
+        border-right: 20px solid $eva_back;
+    }
+}
+.udPlayer-lrc-list {
+    .on {
+        color: $sub-tone;
+    }
+}

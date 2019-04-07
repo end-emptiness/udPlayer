@@ -52,7 +52,6 @@ class udPlayer {
         }else{
             instance = true;
         }
-        console.log(option.userName);
         Util.ajax({
             url: baseUrl + 'getConfigs',
             data: {userName : option.userName},
@@ -72,7 +71,9 @@ class udPlayer {
                     mode: 'listloop',
                     defaultplay: config.defaultPlay,
                     listshow: config.listShow,
-                    evatime: config.evaTime
+                    evatime: config.evaTime,
+                    playertype: config.playerType,
+                    showLrc: config.showLrc
                 };
                 this.option = defaultOption;
 
@@ -254,9 +255,12 @@ class udPlayer {
             musictitle: this.root.querySelector('.udPlayer-song-title'),
             musicitem: this.root.querySelectorAll('.udPlayer-song-list li'),
             albumitem: this.root.querySelectorAll('.udPlayer-album-list li'),
-            returnalbum: this.root.querySelector('.udPlayer-title-sign')
+            returnalbum: this.root.querySelector('.udPlayer-title-sign'),
+            lrcBlock: document.querySelector('#udPlayer-lrc'),
+            lrcList: document.querySelector('#udPlayer-lrc .udPlayer-lrc-list')
         };
         this.audio = this.root.querySelector('.udPlayer-source');
+        require('./colorType' + this.option.playertype + '.scss');
         if(this.option.listshow === 1){
             this.root.classList.add('udPlayer-list-on');
         }
@@ -266,6 +270,12 @@ class udPlayer {
         }
         if(this.option.mode === 'singleloop'){
             this.audio.loop = true;
+        }
+        if(this.option.showLrc === 0) {
+            this.dom.lrcBlock.classList.add('udPlayer-lrc-hide');
+        }
+        if(this.option.showeva === 0) {
+            this.dom.evawin.classList.add('win-hide');
         }
         if(this.option.volume < 100) {
             this.dom.volumeline_value.style.width = Util.percentFormat(this.option.volume/100);
@@ -277,33 +287,31 @@ class udPlayer {
         this.dom.musicitem[0].className = 'udPlayer-curMusic';
         this.dom.albumitem[this.option.defaultplay].className = 'udPlayer-curAlbum';
         this.option.musicIndex = 0;
-        if(this.music[0].type === 'wangyi'){
-            Util.ajax({
-                url: baseUrl + 'player/getSongOL',
-                data: {id : this.music[0].songId , type: 'wangyi'},
-                beforeSend: () => {
-                    console.log('正在拉取歌曲……');
-                },
-                success: (data) => {
-                    let url = JSON.parse(data).sourceUrl;
-                    if(url !== null){
-                        console.log('歌曲拉取成功！');
-                        this.audio.src = url;
-                        if(this.option.autoplay === 1) {
-                            this.play();
-                        }
-                    }else{
-                        console.log('歌曲拉取失败！ 资源无效！');
-                        if(this.music.length !== 1){
-                            this.next();
-                        }
+        Util.ajax({
+            url: baseUrl + 'player/getSongOL',
+            data: {id : this.music[0].songId , type: this.music[0].type},
+            beforeSend: () => {
+                console.log('正在拉取歌曲……');
+            },
+            success: (data) => {
+                let url = JSON.parse(data).sourceUrl;
+                if(url !== null){
+                    console.log('歌曲拉取成功！');
+                    this.audio.src = url;
+                    if(this.option.autoplay === 1) {
+                        this.play();
                     }
-                },
-                fail: (status) => {
-                    console.error('歌曲拉取失败！ 错误码：' + status);
+                }else{
+                    console.log('歌曲拉取失败！ 资源无效！');
+                    if(this.music.length !== 1){
+                        this.next();
+                    }
                 }
-            });
-        }
+            },
+            fail: (status) => {
+                console.error('歌曲拉取失败！ 错误码：' + status);
+            }
+        });
     }
 
     bind(){
@@ -311,7 +319,7 @@ class udPlayer {
             let percent = this.audio.buffered.length ? (this.audio.buffered.end(this.audio.buffered.length - 1) / this.audio.duration) : 0;
             this.dom.timeline_loaded.style.width = Util.percentFormat(percent);
         };
-
+        this.updateLrc(this.music[0]);
         this.audio.addEventListener('durationchange', (e) => {
             this.dom.timetext_total.innerHTML = Util.timeFormat(this.audio.duration);
             this.updateLine();
@@ -470,31 +478,30 @@ class udPlayer {
         this.dom.name.innerHTML = this.music[index].name;
         this.dom.author.innerHTML = this.music[index].author;
         this.dom.cover.src = this.music[index].cover;
-        if(this.music[index].type === 'wangyi'){
-            Util.ajax({
-                url: baseUrl + 'player/getSongOL',
-                data: {id : this.music[index].songId , type: 'wangyi'},
-                beforeSend: () => {
-                    console.log('正在拉取歌曲……');
-                },
-                success: (data) => {
-                    let url = JSON.parse(data).sourceUrl;
-                    if(url !== null){
-                        console.log('歌曲拉取成功！');
-                        this.audio.src = url;
-                        this.play();
-                    }else{
-                        console.log('歌曲拉取失败！ 资源无效！');
-                        if(this.music.length !== 1){
-                            this.next();
-                        }
+        this.updateLrc(this.music[index]);
+        Util.ajax({
+            url: baseUrl + 'player/getSongOL',
+            data: {id : this.music[index].songId , type: this.music[index].type},
+            beforeSend: () => {
+                console.log('正在拉取歌曲……');
+            },
+            success: (data) => {
+                let url = JSON.parse(data).sourceUrl;
+                if(url !== null){
+                    console.log('歌曲拉取成功！');
+                    this.audio.src = url;
+                    this.play();
+                }else{
+                    console.log('歌曲拉取失败！ 资源无效！');
+                    if(this.music.length !== 1){
+                        this.next();
                     }
-                },
-                fail: (status) => {
-                    console.error('歌曲拉取失败！ 错误码：' + status);
                 }
-            });
-        }
+            },
+            fail: (status) => {
+                console.error('歌曲拉取失败！ 错误码：' + status);
+            }
+        });
     }
 
     play(){
@@ -633,6 +640,72 @@ class udPlayer {
                 clearInterval(songDetail.scrollFun);
             };
         }
+    }
+
+    updateLrc(song) {
+        Util.ajax({
+            url: baseUrl + 'player/getLyric',
+            data: {songId : song.songId , type: song.type},
+            beforeSend: () => {
+                console.log('正在拉取歌词……');
+            },
+            success: (data) => {
+                let lrcJSON = JSON.parse(data);
+                let lrcTime = [];//歌词对应的时间数组
+                let ul = this.dom.lrcList;
+                ul.innerHTML = "";
+                if(lrcJSON.length == 0) {
+                    ul.innerHTML = "<li><p>纯音乐， 请欣赏</p></li>";
+                }
+                let lrcIndex = 0;
+                for(let jsonMem of lrcJSON) {
+                    for(let key in jsonMem) {
+                        //转化为秒
+                        lrcTime[lrcIndex++] = parseFloat(key.substr(1,3)) * 60 + parseFloat(key.substring(4,10));
+                        ul.innerHTML += "<li><p>"+jsonMem[key]+"</p></li>";
+                    }
+                }
+                //如不另加一个结束时间，到最后歌词滚动不到最后一句
+                lrcTime[lrcTime.length] = lrcTime[lrcTime.length - 1] + 3;
+
+                let li = ul.getElementsByTagName("li");
+                let currentLine = 0;//当前播放lrc行数
+                let audio = this.audio;
+                let currentTime;//当前播放的时间
+                let nowLevel;//保存ul的translateY值
+                let maxIndex = lrcTime.length;
+                audio.ontimeupdate = () => {
+                    currentTime = this.audio.currentTime;
+                    for (let j = currentLine; j < maxIndex; j++){
+                        if (currentTime < lrcTime[j + 1] && currentTime > lrcTime[j]){
+                            currentLine =  j;
+                            nowLevel = 0 - (currentLine * 32);
+                            ul.style.transform = "translateY(" + nowLevel + "px)";
+                            if(currentLine > 0)
+                                li[currentLine - 1].classList.remove('on');
+                            li[currentLine].classList.add('on');
+                            break;
+                        }
+                    }
+                };
+
+                audio.onseeked = () => {
+                    currentTime = audio.currentTime;
+                    if(ul.querySelector('.on') !== null){
+                        ul.querySelector('.on').classList.remove('on');
+                    }
+                    for (let k = 0; k < maxIndex; k ++){
+                        if (currentTime < lrcTime[k + 1] && currentTime < lrcTime[k]){
+                            currentLine = k;
+                            break;
+                        }
+                    }
+                };
+            },
+            fail: (status) => {
+                console.error('歌词拉取失败！ 错误码：' + status);
+            }
+        });
     }
 
     destroy(){

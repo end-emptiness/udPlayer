@@ -51,13 +51,12 @@ $list_border:#E9E9E9;     //列表项边框
   width:410px;
   height:125px;
   left: 0px;
-  bottom: 80px;
+  bottom: 120px;
   font-family:Arial,Helvetica,sans-serif;
   position:absolute;
   @include transition();
   @include user-select();
   cursor:default;
-  background-color:$main-tone;
   box-shadow:0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12);
 
   *{
@@ -77,7 +76,6 @@ $list_border:#E9E9E9;     //列表项边框
 
   .udPlayer-tip-loading{
     font-size:30px;
-    color:$gray;
     line-height:100px;
     text-align:center;
   }
@@ -103,7 +101,6 @@ $list_border:#E9E9E9;     //列表项边框
     display:block;
     width:30px;
     height:30px;
-    background-color:$sub-tone;
     border-radius:50%;
     position:absolute;
     overflow:hidden;
@@ -168,7 +165,6 @@ $list_border:#E9E9E9;     //列表项边框
     top: 0;
     width:30px;
     height:131px;
-    background-color:$main-tone;
     border-radius:0 7px 7px 0;
     text-align:left;
     font-weight: 700;
@@ -201,12 +197,10 @@ $list_border:#E9E9E9;     //列表项边框
       &.udPlayer-name{
         font-size:18px;
         font-weight:700;
-        color:$gray;
       }
 
       &.udPlayer-author{
         font-size:15px;
-        color:$gray_grandma;
         max-width:90%;
       }
 
@@ -215,7 +209,6 @@ $list_border:#E9E9E9;     //列表项边框
     >.udPlayer-percent{
       width:250px;
       height:6px;
-      background-color:$line;
       margin:9px 0;
       cursor:pointer;
       overflow:hidden;
@@ -224,7 +217,6 @@ $list_border:#E9E9E9;     //列表项边框
       .udPlayer-line{
         width:0;
         height:100%;
-        background-color:$sub-tone;
         position:absolute;
         left:0;
         top:0;
@@ -234,7 +226,6 @@ $list_border:#E9E9E9;     //列表项边框
       .udPlayer-line-loading{
         width:0;
         height:100%;
-        background-color:$line_loading;
         position:absolute;
         left:0;
         top:0;
@@ -256,7 +247,6 @@ $list_border:#E9E9E9;     //列表项边框
         width:5px;
         height:6px;
         position:absolute;
-        background-color:$gray;
         top:4px;
         left:-20px;
         cursor:pointer;
@@ -271,7 +261,6 @@ $list_border:#E9E9E9;     //列表项边框
           width:2px;
           height:22px;
           @include transform(rotate(58deg));
-          background-color:$gray;
           position:absolute;
           top:-8px;
           left:5px;
@@ -284,7 +273,6 @@ $list_border:#E9E9E9;     //列表项边框
           height:6px;
           border-width:4px 5px;
           border-style:solid;
-          border-color:transparent $gray transparent transparent;
           position:absolute;
           top:-4px;
           left:-5px;
@@ -295,7 +283,6 @@ $list_border:#E9E9E9;     //列表项边框
         position:absolute;
         width:140px;
         height:14px;
-        background-color:$line;
         border-radius:6px;
         overflow:hidden;
         cursor:pointer;
@@ -306,14 +293,12 @@ $list_border:#E9E9E9;     //列表项边框
       .udPlayer-line{
         height:100%;
         width:100%;
-        background-color:$red;
         @include transition();
       }
     }
 
     .udPlayer-time{
       font-size:15px;
-      color:$gray_grandma;
       float:left;
     }
 
@@ -386,7 +371,6 @@ $list_border:#E9E9E9;     //列表项边框
       display:block;
       width:16px;
       height:3px;
-      background-color:$gray;
       position:absolute;
       right:0;
       bottom:6px;
@@ -396,7 +380,6 @@ $list_border:#E9E9E9;     //列表项边框
         display:block;
         width:16px;
         height:3px;
-        background-color:$gray;
         position:absolute;
         left:0;
         bottom:6px;
@@ -407,7 +390,6 @@ $list_border:#E9E9E9;     //列表项边框
         display:block;
         width:16px;
         height:3px;
-        background-color:$gray;
         position:absolute;
         left:0;
         bottom:-6px;
@@ -437,7 +419,6 @@ $list_border:#E9E9E9;     //列表项边框
     position: absolute;
     top: 125px;
     padding-top: 6px;
-    background-color: $main-tone;
     list-style: none;
     height: 0px;
     overflow-y: auto;
@@ -488,7 +469,6 @@ $list_border:#E9E9E9;     //列表项边框
     width:100%;
     position:absolute;
     left:100%;
-    background-color:$main-tone;
     list-style:none;
     height:0px;
     overflow-y:auto;
@@ -510,7 +490,6 @@ $list_border:#E9E9E9;     //列表项边框
       left: 0px;
 
       &.udPlayer-curMusic{
-        background-color:$list_bg;
         .udPlayer-list-sign{
           display:block;
         }
@@ -532,7 +511,6 @@ $list_border:#E9E9E9;     //列表项边框
 
     &::-webkit-scrollbar-thumb{
       box-shadow:inset 0 0 7px rgba(0,0,0,.3);
-      background-color:$sub-tone;
     }
 
     .udPlayer-list-sign{
@@ -542,18 +520,15 @@ $list_border:#E9E9E9;     //列表项边框
       position:absolute;
       left:0;
       top:5px;
-      background-color:$sub-tone;
     }
 
     .udPlayer-list-index{
-      color:$gray_grandma;
       position:absolute;
       left:15px;
       top:0;
     }
 
     .udPlayer-list-name{
-      color:$gray;
       float:left;
       margin-left:24px;
       max-width:200px;
@@ -561,14 +536,12 @@ $list_border:#E9E9E9;     //列表项边框
     }
 
     .udPlayer-list-author{
-        color:$gray_grandma;
         float:right;
         max-width:107px;
         @include ellipsis;
     }
 
     .udPlayer-list-des{
-      color:$gray_grandma;
       text-align:left;
       height:32px;
       padding-left:100%;
@@ -580,7 +553,6 @@ $list_border:#E9E9E9;     //列表项边框
     //display:block;
     width:100%;
     position:absolute;
-    background-color:$main-tone;
     list-style:none;
     height:0px;
     left: 0;
@@ -602,11 +574,9 @@ $list_border:#E9E9E9;     //列表项边框
       left: 0px;
 
       &:hover{
-        background-color:$list_hover;
       }
 
       &.udPlayer-curAlbum{
-        background-color:$list_bg;
         .udPlayer-list-sign{
           display:block;
         }
@@ -628,7 +598,6 @@ $list_border:#E9E9E9;     //列表项边框
 
     &::-webkit-scrollbar-thumb{
       box-shadow:inset 0 0 7px rgba(0,0,0,.3);
-      background-color:$sub-tone;
     }
 
     .udPlayer-list-sign{
@@ -638,18 +607,15 @@ $list_border:#E9E9E9;     //列表项边框
       position:absolute;
       left:0;
       top:5px;
-      background-color:$sub-tone;
     }
 
     .udPlayer-list-index{
-      color:$gray_grandma;
       position:absolute;
       left:15px;
       top:0;
     }
 
     .udPlayer-list-name{
-      color:$gray;
       float:left;
       margin-left:24px;
       max-width:200px;
@@ -657,14 +623,12 @@ $list_border:#E9E9E9;     //列表项边框
     }
 
     .udPlayer-list-author{
-      color:$gray_grandma;
       float:right;
       max-width:107px;
       @include ellipsis;
     }
 
     .udPlayer-list-des{
-      color:$gray_grandma;
       text-align:left;
       height:32px;
       padding-left:100%;
@@ -684,7 +648,6 @@ $list_border:#E9E9E9;     //列表项边框
 
       &:hover{
         height:64px;
-        background-color:$list_hover;
       }
     }
 
@@ -703,7 +666,6 @@ $list_border:#E9E9E9;     //列表项边框
 
       &:hover{
         height:64px;
-        background-color:$list_hover;
       }
     }
 
@@ -749,12 +711,10 @@ $list_border:#E9E9E9;     //列表项边框
     position: absolute;
     top: -110px;
     left: 20px;
-    background-color: $main-tone;
     width: 365px;
     height: 76px;
     display: inline-block;
     font-size: 14px;
-    color: $text-color;
     line-height: 28px;
     padding: 10px;
     padding-top: 0px;
@@ -788,14 +748,65 @@ $list_border:#E9E9E9;     //列表项边框
       pointer-events: auto;
       @include transition();
     }
+
+    &.win-hide {
+      display: none;
+    }
   }
 
   .udPlayer-eva-win:before{
     content: ' ';
     border-top: 20px solid transparent;
-    border-right: 20px solid $main-tone;
     position: absolute;
     bottom: 0px;
     left: -20px;
+  }
+}
+
+#udPlayer-lrc {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  height: 48px;
+  bottom: 0;
+  overflow: hidden;
+  background-color: rgba(0,0,0,0.1);
+  @include transition();
+
+  .udPlayer-lrc-list {
+    @include transition();
+
+    li {
+      list-style:none;
+      padding: 0;
+      margin: 0;
+
+      p{
+        overflow: hidden;
+        text-overflow: ellipsis;
+        height: 16px;
+        line-height: 16px;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+        display: -webkit-box;
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 16px;
+      }
+    }
+  }
+
+  &:hover {
+    @include transition();
+    height: 112px;
+
+    .udPlayer-lrc-list {
+      @include transition();
+      margin-top:48px;
+    }
+  }
+
+  &.udPlayer-lrc-hide {
+    display: none;
   }
 }
