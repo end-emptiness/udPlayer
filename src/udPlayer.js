@@ -319,7 +319,9 @@ class udPlayer {
             let percent = this.audio.buffered.length ? (this.audio.buffered.end(this.audio.buffered.length - 1) / this.audio.duration) : 0;
             this.dom.timeline_loaded.style.width = Util.percentFormat(percent);
         };
-        this.updateLrc(this.music[0]);
+        if(this.option.showLrc === 1) {
+            this.updateLrc(this.music[0]);
+        }
         this.audio.addEventListener('durationchange', (e) => {
             this.dom.timetext_total.innerHTML = Util.timeFormat(this.audio.duration);
             this.updateLine();
@@ -478,7 +480,9 @@ class udPlayer {
         this.dom.name.innerHTML = this.music[index].name;
         this.dom.author.innerHTML = this.music[index].author;
         this.dom.cover.src = this.music[index].cover;
-        this.updateLrc(this.music[index]);
+        if(this.option.showLrc === 1) {
+            this.updateLrc(this.music[index]);
+        }
         Util.ajax({
             url: baseUrl + 'player/getSongOL',
             data: {id : this.music[index].songId , type: this.music[index].type},
