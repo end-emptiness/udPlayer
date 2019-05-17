@@ -53,7 +53,7 @@ $list_border:#E9E9E9;     //列表项边框
   left: 0px;
   bottom: 120px;
   font-family:Arial,Helvetica,sans-serif;
-  position:absolute;
+  position:fixed;
   @include transition();
   @include user-select();
   cursor:default;
@@ -764,7 +764,7 @@ $list_border:#E9E9E9;     //列表项边框
 }
 
 #udPlayer-lrc {
-  position: absolute;
+  position: fixed;
   width: 100%;
   left: 0;
   height: 48px;

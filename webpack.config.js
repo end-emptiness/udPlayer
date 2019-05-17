@@ -7,7 +7,7 @@ var DEV_PATH = path.resolve(__dirname,'src');
 var BUILD_PATH = path.resolve(__dirname,'dist');
 
 module.exports = {
-    entry: './src/' + libraryName + '.js',
+    entry: ["babel-polyfill",'./src/' + libraryName + '.js'],
     output: {
         filename: libraryName + '.min.js',
         path: BUILD_PATH,
